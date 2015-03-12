@@ -2,6 +2,8 @@
  * Created by wwtork on 12.03.15.
  */
 package utils {
+import classes.Job;
+
 public class JobUtil {
 
     private static var _jobs:Array = [];
@@ -9,7 +11,7 @@ public class JobUtil {
     public function JobUtil() {
     }
 
-    public static function addJob(job:Array){
+    public static function addJob(job:Job){
         _jobs.push(job);
     }
 
